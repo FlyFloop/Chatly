@@ -1,0 +1,1267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47551261816306FF42BE4443 /* Pods_ChatlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0AB8775C022B327D554BED1 /* Pods_ChatlyTests.framework */; };
+		6B39E8ED325297428F0A7DF2 /* Pods_Chatly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB1C74F7ACB6521D0E2E08D /* Pods_Chatly.framework */; };
+		BBFB0A38AC48FAFED21E2777 /* Pods_Chatly_ChatlyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F94E9A7AE0B55AC97EAC1A /* Pods_Chatly_ChatlyUITests.framework */; };
+		C5059E512989367600317A29 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5059E502989367600317A29 /* User.swift */; };
+		C5059E59298960A200317A29 /* UINavigationItemTitleColorFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5059E58298960A200317A29 /* UINavigationItemTitleColorFunction.swift */; };
+		C5142FB82988237C0001F4A1 /* ChatlyColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5142FB72988237C0001F4A1 /* ChatlyColorConstants.swift */; };
+		C5142FBB298825330001F4A1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5142FBA298825330001F4A1 /* UIColorExtension.swift */; };
+		C5142FBE29882BAB0001F4A1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FBD29882BAB0001F4A1 /* FirebaseAuth */; };
+		C5142FC029882BAB0001F4A1 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FBF29882BAB0001F4A1 /* FirebaseAuthCombine-Community */; };
+		C5142FC229882BAB0001F4A1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FC129882BAB0001F4A1 /* FirebaseFirestore */; };
+		C5142FC429882BAB0001F4A1 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FC329882BAB0001F4A1 /* FirebaseFirestoreCombine-Community */; };
+		C5142FC629882BAB0001F4A1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FC529882BAB0001F4A1 /* FirebaseFirestoreSwift */; };
+		C5142FC829882BAB0001F4A1 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FC729882BAB0001F4A1 /* FirebaseFunctions */; };
+		C5142FCA29882BAB0001F4A1 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FC929882BAB0001F4A1 /* FirebaseFunctionsCombine-Community */; };
+		C5142FCC29882BAB0001F4A1 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FCB29882BAB0001F4A1 /* FirebaseMessaging */; };
+		C5142FCE29882BAB0001F4A1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FCD29882BAB0001F4A1 /* FirebaseStorage */; };
+		C5142FD029882BAB0001F4A1 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = C5142FCF29882BAB0001F4A1 /* FirebaseStorageCombine-Community */; };
+		C5142FD92988364C0001F4A1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5142FD82988364C0001F4A1 /* LoginViewController.swift */; };
+		C5142FDC298837AC0001F4A1 /* CornerRadiusConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5142FDB298837AC0001F4A1 /* CornerRadiusConstants.swift */; };
+		C5142FDF29883BD90001F4A1 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5142FDE29883BD90001F4A1 /* StringConstants.swift */; };
+		C5142FE129883D6A0001F4A1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5142FE029883D6A0001F4A1 /* RegisterViewController.swift */; };
+		C5269C68299DFD9A009424B3 /* FirebaseStandartAlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5269C67299DFD9A009424B3 /* FirebaseStandartAlertError.swift */; };
+		C5269C6A299E0245009424B3 /* AddChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5269C69299E0245009424B3 /* AddChatViewController.swift */; };
+		C53B7D43298EEE7B009E45E7 /* FriendsRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B7D42298EEE7B009E45E7 /* FriendsRequestsViewController.swift */; };
+		C53B7D46298EF539009E45E7 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B7D45298EF539009E45E7 /* Friend.swift */; };
+		C53B7D4B298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C53B7D49298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.swift */; };
+		C53B7D4C298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C53B7D4A298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.xib */; };
+		C5425B7E298A875600BBD10C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5425B7D298A875600BBD10C /* ProfileViewController.swift */; };
+		C5509EDB29926B7800280670 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5509EDA29926B7800280670 /* UIImageViewExtension.swift */; };
+		C5509EDD2992D8BE00280670 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5509EDC2992D8BE00280670 /* DateExtension.swift */; };
+		C5509EE42992DA7600280670 /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5509EE32992DA7600280670 /* DateManager.swift */; };
+		C55D986C298A667B00A61CE0 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55D986B298A667B00A61CE0 /* HomeTabBarViewController.swift */; };
+		C5704AAA298AAEC800E38B86 /* URLNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5704AA9298AAEC800E38B86 /* URLNetwork.swift */; };
+		C575D0AD299139D400B3E6B4 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575D0AB299139D400B3E6B4 /* FriendsTableViewCell.swift */; };
+		C575D0AE299139D400B3E6B4 /* FriendsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C575D0AC299139D400B3E6B4 /* FriendsTableViewCell.xib */; };
+		C575D0B029917E7B00B3E6B4 /* FriendDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C575D0AF29917E7B00B3E6B4 /* FriendDetailViewController.swift */; };
+		C5871B12299466EE00582352 /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5871B11299466EE00582352 /* ChatsViewController.swift */; };
+		C5871B162994FAF300582352 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5871B152994FAF300582352 /* UIImageExtension.swift */; };
+		C58D8B09299672E6002C82EF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D8B08299672E6002C82EF /* Message.swift */; };
+		C58D8B0D2997B625002C82EF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58D8B0C2997B625002C82EF /* StringExtension.swift */; };
+		C5A5E4502998E1DB00064F05 /* ChatListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A5E44E2998E1DB00064F05 /* ChatListTableViewCell.swift */; };
+		C5A5E4512998E1DB00064F05 /* ChatListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5A5E44F2998E1DB00064F05 /* ChatListTableViewCell.xib */; };
+		C5B43610298BD20A008B3417 /* BulletinBoardTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B4360F298BD209008B3417 /* BulletinBoardTextField.swift */; };
+		C5B6D027298BF64F00813ECF /* FirebaseNetworkUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D026298BF64F00813ECF /* FirebaseNetworkUserManager.swift */; };
+		C5B6D02A298D09FA00813ECF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D029298D09FA00813ECF /* SettingsViewController.swift */; };
+		C5B6D02D298D180A00813ECF /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D02C298D180A00813ECF /* UserDefaultsManager.swift */; };
+		C5B6D030298D2B8A00813ECF /* GenerateRandomUserUniqueCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D02F298D2B8A00813ECF /* GenerateRandomUserUniqueCode.swift */; };
+		C5B6D032298D2D4900813ECF /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6D031298D2D4900813ECF /* FriendsViewController.swift */; };
+		C5BE34B329869454004A8D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE34B229869454004A8D5A /* AppDelegate.swift */; };
+		C5BE34B529869454004A8D5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE34B429869454004A8D5A /* SceneDelegate.swift */; };
+		C5BE34B729869454004A8D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE34B629869454004A8D5A /* ViewController.swift */; };
+		C5BE34BA29869454004A8D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BE34B829869454004A8D5A /* Main.storyboard */; };
+		C5BE34BD29869454004A8D5A /* Chatly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5BE34BB29869454004A8D5A /* Chatly.xcdatamodeld */; };
+		C5BE34BF29869456004A8D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BE34BE29869456004A8D5A /* Assets.xcassets */; };
+		C5BE34C229869456004A8D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BE34C029869456004A8D5A /* LaunchScreen.storyboard */; };
+		C5BE34CD29869456004A8D5A /* ChatlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE34CC29869456004A8D5A /* ChatlyTests.swift */; };
+		C5BE34D729869456004A8D5A /* ChatlyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE34D629869456004A8D5A /* ChatlyUITests.swift */; };
+		C5BE34D929869456004A8D5A /* ChatlyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BE34D829869456004A8D5A /* ChatlyUITestsLaunchTests.swift */; };
+		C5EA8748299E44C30096D683 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EA8747299E44C30096D683 /* CoreDataManager.swift */; };
+		C5EC262D299645CA00F5E919 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EC262C299645CA00F5E919 /* MessageViewController.swift */; };
+		C5EFFDB229A55335003D070A /* FirebaseStringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFFDB129A55335003D070A /* FirebaseStringConstants.swift */; };
+		C5EFFDB429A5678C003D070A /* ErrorStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFFDB329A5678C003D070A /* ErrorStrings.swift */; };
+		C5EFFDB629A5D93A003D070A /* CellStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFFDB529A5D93A003D070A /* CellStrings.swift */; };
+		C5EFFDB829A5DB6F003D070A /* CoreDataStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFFDB729A5DB6F003D070A /* CoreDataStrings.swift */; };
+		C5EFFDBA29A5DC66003D070A /* SegueStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFFDB929A5DC66003D070A /* SegueStrings.swift */; };
+		C5EFFDBC29A5F993003D070A /* UserDefaultsStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EFFDBB29A5F993003D070A /* UserDefaultsStrings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5BE34C929869456004A8D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5BE34A729869454004A8D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5BE34AE29869454004A8D5A;
+			remoteInfo = Chatly;
+		};
+		C5BE34D329869456004A8D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5BE34A729869454004A8D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5BE34AE29869454004A8D5A;
+			remoteInfo = Chatly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1BE30900C88597CAB9D07F /* Pods-Chatly-ChatlyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatly-ChatlyUITests.release.xcconfig"; path = "Target Support Files/Pods-Chatly-ChatlyUITests/Pods-Chatly-ChatlyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		358A97D14DE4F8A689A0631B /* Pods-Chatly-ChatlyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatly-ChatlyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Chatly-ChatlyUITests/Pods-Chatly-ChatlyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40F94E9A7AE0B55AC97EAC1A /* Pods_Chatly_ChatlyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatly_ChatlyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB1C74F7ACB6521D0E2E08D /* Pods_Chatly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D34F43DA12CBC042E1A3A52 /* Pods-Chatly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatly.debug.xcconfig"; path = "Target Support Files/Pods-Chatly/Pods-Chatly.debug.xcconfig"; sourceTree = "<group>"; };
+		BB499948EEBF0D3982063CB6 /* Pods-ChatlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatlyTests.release.xcconfig"; path = "Target Support Files/Pods-ChatlyTests/Pods-ChatlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		BD9E17D7B86B6CD5C626F613 /* Pods-ChatlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatlyTests.debug.xcconfig"; path = "Target Support Files/Pods-ChatlyTests/Pods-ChatlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5059E502989367600317A29 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5059E58298960A200317A29 /* UINavigationItemTitleColorFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationItemTitleColorFunction.swift; sourceTree = "<group>"; };
+		C5142FB72988237C0001F4A1 /* ChatlyColorConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlyColorConstants.swift; sourceTree = "<group>"; };
+		C5142FBA298825330001F4A1 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		C5142FD82988364C0001F4A1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C5142FDB298837AC0001F4A1 /* CornerRadiusConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusConstants.swift; sourceTree = "<group>"; };
+		C5142FDE29883BD90001F4A1 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		C5142FE029883D6A0001F4A1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C5269C67299DFD9A009424B3 /* FirebaseStandartAlertError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStandartAlertError.swift; sourceTree = "<group>"; };
+		C5269C69299E0245009424B3 /* AddChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChatViewController.swift; sourceTree = "<group>"; };
+		C53B7D42298EEE7B009E45E7 /* FriendsRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsRequestsViewController.swift; sourceTree = "<group>"; };
+		C53B7D45298EF539009E45E7 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		C53B7D49298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsRequestCellTableViewCell.swift; sourceTree = "<group>"; };
+		C53B7D4A298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsRequestCellTableViewCell.xib; sourceTree = "<group>"; };
+		C5425B7D298A875600BBD10C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C5509EDA29926B7800280670 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		C5509EDC2992D8BE00280670 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C5509EE32992DA7600280670 /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		C55D986B298A667B00A61CE0 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		C5704AA9298AAEC800E38B86 /* URLNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLNetwork.swift; sourceTree = "<group>"; };
+		C575D0AB299139D400B3E6B4 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
+		C575D0AC299139D400B3E6B4 /* FriendsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendsTableViewCell.xib; sourceTree = "<group>"; };
+		C575D0AF29917E7B00B3E6B4 /* FriendDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDetailViewController.swift; sourceTree = "<group>"; };
+		C5871B11299466EE00582352 /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
+		C5871B152994FAF300582352 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		C58D8B08299672E6002C82EF /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C58D8B0C2997B625002C82EF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C5A5E44E2998E1DB00064F05 /* ChatListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChatListTableViewCell.swift; path = Chatly/Controller/TabBar/ChatListTableViewCustomCell/ChatListTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		C5A5E44F2998E1DB00064F05 /* ChatListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChatListTableViewCell.xib; path = Chatly/Controller/TabBar/ChatListTableViewCustomCell/ChatListTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		C5B4360F298BD209008B3417 /* BulletinBoardTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulletinBoardTextField.swift; sourceTree = "<group>"; };
+		C5B6D026298BF64F00813ECF /* FirebaseNetworkUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseNetworkUserManager.swift; sourceTree = "<group>"; };
+		C5B6D029298D09FA00813ECF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C5B6D02C298D180A00813ECF /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		C5B6D02F298D2B8A00813ECF /* GenerateRandomUserUniqueCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateRandomUserUniqueCode.swift; sourceTree = "<group>"; };
+		C5B6D031298D2D4900813ECF /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		C5BE34AF29869454004A8D5A /* Chatly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BE34B229869454004A8D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5BE34B429869454004A8D5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C5BE34B629869454004A8D5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5BE34B929869454004A8D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5BE34BC29869454004A8D5A /* Chatly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chatly.xcdatamodel; sourceTree = "<group>"; };
+		C5BE34BE29869456004A8D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5BE34C129869456004A8D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5BE34C329869456004A8D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BE34C829869456004A8D5A /* ChatlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BE34CC29869456004A8D5A /* ChatlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlyTests.swift; sourceTree = "<group>"; };
+		C5BE34D229869456004A8D5A /* ChatlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5BE34D629869456004A8D5A /* ChatlyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlyUITests.swift; sourceTree = "<group>"; };
+		C5BE34D829869456004A8D5A /* ChatlyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatlyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C5EA8747299E44C30096D683 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C5EC262C299645CA00F5E919 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		C5EFFDB129A55335003D070A /* FirebaseStringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStringConstants.swift; sourceTree = "<group>"; };
+		C5EFFDB329A5678C003D070A /* ErrorStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorStrings.swift; sourceTree = "<group>"; };
+		C5EFFDB529A5D93A003D070A /* CellStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellStrings.swift; sourceTree = "<group>"; };
+		C5EFFDB729A5DB6F003D070A /* CoreDataStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStrings.swift; sourceTree = "<group>"; };
+		C5EFFDB929A5DC66003D070A /* SegueStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueStrings.swift; sourceTree = "<group>"; };
+		C5EFFDBB29A5F993003D070A /* UserDefaultsStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsStrings.swift; sourceTree = "<group>"; };
+		E0AB8775C022B327D554BED1 /* Pods_ChatlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33F0661289E64F5118FC993 /* Pods-Chatly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatly.release.xcconfig"; path = "Target Support Files/Pods-Chatly/Pods-Chatly.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5BE34AC29869454004A8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5142FCC29882BAB0001F4A1 /* FirebaseMessaging in Frameworks */,
+				C5142FCA29882BAB0001F4A1 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				C5142FD029882BAB0001F4A1 /* FirebaseStorageCombine-Community in Frameworks */,
+				C5142FCE29882BAB0001F4A1 /* FirebaseStorage in Frameworks */,
+				C5142FC629882BAB0001F4A1 /* FirebaseFirestoreSwift in Frameworks */,
+				C5142FBE29882BAB0001F4A1 /* FirebaseAuth in Frameworks */,
+				C5142FC429882BAB0001F4A1 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				C5142FC829882BAB0001F4A1 /* FirebaseFunctions in Frameworks */,
+				C5142FC029882BAB0001F4A1 /* FirebaseAuthCombine-Community in Frameworks */,
+				C5142FC229882BAB0001F4A1 /* FirebaseFirestore in Frameworks */,
+				6B39E8ED325297428F0A7DF2 /* Pods_Chatly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BE34C529869456004A8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47551261816306FF42BE4443 /* Pods_ChatlyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BE34CF29869456004A8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBFB0A38AC48FAFED21E2777 /* Pods_Chatly_ChatlyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F68D39E7DEC2E95578B9B3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D34F43DA12CBC042E1A3A52 /* Pods-Chatly.debug.xcconfig */,
+				E33F0661289E64F5118FC993 /* Pods-Chatly.release.xcconfig */,
+				358A97D14DE4F8A689A0631B /* Pods-Chatly-ChatlyUITests.debug.xcconfig */,
+				0F1BE30900C88597CAB9D07F /* Pods-Chatly-ChatlyUITests.release.xcconfig */,
+				BD9E17D7B86B6CD5C626F613 /* Pods-ChatlyTests.debug.xcconfig */,
+				BB499948EEBF0D3982063CB6 /* Pods-ChatlyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2CCB9C173AADCF5E05B9AFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FB1C74F7ACB6521D0E2E08D /* Pods_Chatly.framework */,
+				40F94E9A7AE0B55AC97EAC1A /* Pods_Chatly_ChatlyUITests.framework */,
+				E0AB8775C022B327D554BED1 /* Pods_ChatlyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5059E4F2989366D00317A29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5059E502989367600317A29 /* User.swift */,
+				C53B7D45298EF539009E45E7 /* Friend.swift */,
+				C58D8B08299672E6002C82EF /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C5059E562989607700317A29 /* HelperFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				C5509EE22992DA6200280670 /* Dater */,
+				C5B6D02E298D2B6000813ECF /* RandomUniqueCode */,
+				C5059E572989608300317A29 /* NavigationFunctions */,
+			);
+			path = HelperFunctions;
+			sourceTree = "<group>";
+		};
+		C5059E572989608300317A29 /* NavigationFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				C5059E58298960A200317A29 /* UINavigationItemTitleColorFunction.swift */,
+			);
+			path = NavigationFunctions;
+			sourceTree = "<group>";
+		};
+		C5142FB5298823650001F4A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C5269C63299DFC41009424B3 /* Alerts */,
+				C5059E562989607700317A29 /* HelperFunctions */,
+				C5142FDD29883BC90001F4A1 /* Strings */,
+				C5142FDA298837930001F4A1 /* Radius */,
+				C5142FB9298825220001F4A1 /* Extensions */,
+				C5142FB6298823690001F4A1 /* Color */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C5142FB6298823690001F4A1 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				C5142FB72988237C0001F4A1 /* ChatlyColorConstants.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		C5142FB9298825220001F4A1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C5142FBA298825330001F4A1 /* UIColorExtension.swift */,
+				C5B4360F298BD209008B3417 /* BulletinBoardTextField.swift */,
+				C5509EDA29926B7800280670 /* UIImageViewExtension.swift */,
+				C5509EDC2992D8BE00280670 /* DateExtension.swift */,
+				C5871B152994FAF300582352 /* UIImageExtension.swift */,
+				C58D8B0C2997B625002C82EF /* StringExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C5142FD129882DD20001F4A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C55D986E298A672000A61CE0 /* TabBar */,
+				C59C27862989C794003C3454 /* Home */,
+				C5142FD229882DDD0001F4A1 /* Auth */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C5142FD229882DDD0001F4A1 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				C5142FD429882DFD0001F4A1 /* Register */,
+				C5142FD329882DF20001F4A1 /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C5142FD329882DF20001F4A1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C5142FD82988364C0001F4A1 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C5142FD429882DFD0001F4A1 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				C5142FE029883D6A0001F4A1 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		C5142FDA298837930001F4A1 /* Radius */ = {
+			isa = PBXGroup;
+			children = (
+				C5142FDB298837AC0001F4A1 /* CornerRadiusConstants.swift */,
+			);
+			path = Radius;
+			sourceTree = "<group>";
+		};
+		C5142FDD29883BC90001F4A1 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				C5142FDE29883BD90001F4A1 /* StringConstants.swift */,
+				C5EFFDB129A55335003D070A /* FirebaseStringConstants.swift */,
+				C5EFFDB329A5678C003D070A /* ErrorStrings.swift */,
+				C5EFFDB529A5D93A003D070A /* CellStrings.swift */,
+				C5EFFDB729A5DB6F003D070A /* CoreDataStrings.swift */,
+				C5EFFDB929A5DC66003D070A /* SegueStrings.swift */,
+				C5EFFDBB29A5F993003D070A /* UserDefaultsStrings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		C5269C63299DFC41009424B3 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				C5269C66299DFD82009424B3 /* FirebaseStandartAlertError */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		C5269C66299DFD82009424B3 /* FirebaseStandartAlertError */ = {
+			isa = PBXGroup;
+			children = (
+				C5269C67299DFD9A009424B3 /* FirebaseStandartAlertError.swift */,
+			);
+			path = FirebaseStandartAlertError;
+			sourceTree = "<group>";
+		};
+		C53B7D41298EEE63009E45E7 /* FriendsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C575D0AA299139AB00B3E6B4 /* FriendsTableViewCustomCell */,
+				C53B7D48298FAA1F009E45E7 /* FriendsRequestTableViewCustomCell */,
+				C5B6D031298D2D4900813ECF /* FriendsViewController.swift */,
+				C53B7D42298EEE7B009E45E7 /* FriendsRequestsViewController.swift */,
+				C575D0AF29917E7B00B3E6B4 /* FriendDetailViewController.swift */,
+			);
+			path = FriendsViewController;
+			sourceTree = "<group>";
+		};
+		C53B7D48298FAA1F009E45E7 /* FriendsRequestTableViewCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				C53B7D49298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.swift */,
+				C53B7D4A298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.xib */,
+			);
+			path = FriendsRequestTableViewCustomCell;
+			sourceTree = "<group>";
+		};
+		C5509EE22992DA6200280670 /* Dater */ = {
+			isa = PBXGroup;
+			children = (
+				C5509EE32992DA7600280670 /* DateManager.swift */,
+			);
+			path = Dater;
+			sourceTree = "<group>";
+		};
+		C55D986E298A672000A61CE0 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC262C299645CA00F5E919 /* MessageViewController.swift */,
+				C5871B1829950FFB00582352 /* ChatViewCustomCell */,
+				C5871B11299466EE00582352 /* ChatsViewController.swift */,
+				C53B7D41298EEE63009E45E7 /* FriendsViewController */,
+				C5425B7D298A875600BBD10C /* ProfileViewController.swift */,
+				C5269C69299E0245009424B3 /* AddChatViewController.swift */,
+				C5B6D029298D09FA00813ECF /* SettingsViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		C5704AA5298AADDF00E38B86 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C5704AA8298AAEB200E38B86 /* URLNetwork */,
+				C5704AA6298AADE700E38B86 /* FirebaseNetwork */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C5704AA6298AADE700E38B86 /* FirebaseNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				C5B6D026298BF64F00813ECF /* FirebaseNetworkUserManager.swift */,
+			);
+			path = FirebaseNetwork;
+			sourceTree = "<group>";
+		};
+		C5704AA8298AAEB200E38B86 /* URLNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				C5704AA9298AAEC800E38B86 /* URLNetwork.swift */,
+			);
+			path = URLNetwork;
+			sourceTree = "<group>";
+		};
+		C575D0AA299139AB00B3E6B4 /* FriendsTableViewCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				C575D0AB299139D400B3E6B4 /* FriendsTableViewCell.swift */,
+				C575D0AC299139D400B3E6B4 /* FriendsTableViewCell.xib */,
+			);
+			path = FriendsTableViewCustomCell;
+			sourceTree = "<group>";
+		};
+		C5871B1829950FFB00582352 /* ChatViewCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5A5E44E2998E1DB00064F05 /* ChatListTableViewCell.swift */,
+				C5A5E44F2998E1DB00064F05 /* ChatListTableViewCell.xib */,
+			);
+			path = ChatViewCustomCell;
+			sourceTree = "<group>";
+		};
+		C59C27862989C794003C3454 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C55D986B298A667B00A61CE0 /* HomeTabBarViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C5B6D02B298D17F500813ECF /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				C5B6D02C298D180A00813ECF /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		C5B6D02E298D2B6000813ECF /* RandomUniqueCode */ = {
+			isa = PBXGroup;
+			children = (
+				C5B6D02F298D2B8A00813ECF /* GenerateRandomUserUniqueCode.swift */,
+			);
+			path = RandomUniqueCode;
+			sourceTree = "<group>";
+		};
+		C5BE34A629869454004A8D5A = {
+			isa = PBXGroup;
+			children = (
+				C5BE34B129869454004A8D5A /* Chatly */,
+				C5BE34CB29869456004A8D5A /* ChatlyTests */,
+				C5BE34D529869456004A8D5A /* ChatlyUITests */,
+				C5BE34B029869454004A8D5A /* Products */,
+				0F68D39E7DEC2E95578B9B3B /* Pods */,
+				C2CCB9C173AADCF5E05B9AFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C5BE34B029869454004A8D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE34AF29869454004A8D5A /* Chatly.app */,
+				C5BE34C829869456004A8D5A /* ChatlyTests.xctest */,
+				C5BE34D229869456004A8D5A /* ChatlyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5BE34B129869454004A8D5A /* Chatly */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA8745299E3E2F0096D683 /* Local */,
+				C5704AA5298AADDF00E38B86 /* Network */,
+				C5059E4F2989366D00317A29 /* Model */,
+				C5142FD129882DD20001F4A1 /* Controller */,
+				C5142FB5298823650001F4A1 /* Utils */,
+				C5BE34B229869454004A8D5A /* AppDelegate.swift */,
+				C5BE34B429869454004A8D5A /* SceneDelegate.swift */,
+				C5BE34B629869454004A8D5A /* ViewController.swift */,
+				C5BE34B829869454004A8D5A /* Main.storyboard */,
+				C5BE34BE29869456004A8D5A /* Assets.xcassets */,
+				C5BE34C029869456004A8D5A /* LaunchScreen.storyboard */,
+				C5BE34C329869456004A8D5A /* Info.plist */,
+				C5BE34BB29869454004A8D5A /* Chatly.xcdatamodeld */,
+			);
+			path = Chatly;
+			sourceTree = "<group>";
+		};
+		C5BE34CB29869456004A8D5A /* ChatlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE34CC29869456004A8D5A /* ChatlyTests.swift */,
+			);
+			path = ChatlyTests;
+			sourceTree = "<group>";
+		};
+		C5BE34D529869456004A8D5A /* ChatlyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE34D629869456004A8D5A /* ChatlyUITests.swift */,
+				C5BE34D829869456004A8D5A /* ChatlyUITestsLaunchTests.swift */,
+			);
+			path = ChatlyUITests;
+			sourceTree = "<group>";
+		};
+		C5EA8745299E3E2F0096D683 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA8746299E3E370096D683 /* CoreData */,
+				C5B6D02B298D17F500813ECF /* UserDefaults */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		C5EA8746299E3E370096D683 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA8747299E44C30096D683 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5BE34AE29869454004A8D5A /* Chatly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BE34DC29869456004A8D5A /* Build configuration list for PBXNativeTarget "Chatly" */;
+			buildPhases = (
+				B02D31F7F28BEE29A8C43F8D /* [CP] Check Pods Manifest.lock */,
+				C5BE34AB29869454004A8D5A /* Sources */,
+				C5BE34AC29869454004A8D5A /* Frameworks */,
+				C5BE34AD29869454004A8D5A /* Resources */,
+				DD0A78DE1969F69F29CB8384 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatly;
+			packageProductDependencies = (
+				C5142FBD29882BAB0001F4A1 /* FirebaseAuth */,
+				C5142FBF29882BAB0001F4A1 /* FirebaseAuthCombine-Community */,
+				C5142FC129882BAB0001F4A1 /* FirebaseFirestore */,
+				C5142FC329882BAB0001F4A1 /* FirebaseFirestoreCombine-Community */,
+				C5142FC529882BAB0001F4A1 /* FirebaseFirestoreSwift */,
+				C5142FC729882BAB0001F4A1 /* FirebaseFunctions */,
+				C5142FC929882BAB0001F4A1 /* FirebaseFunctionsCombine-Community */,
+				C5142FCB29882BAB0001F4A1 /* FirebaseMessaging */,
+				C5142FCD29882BAB0001F4A1 /* FirebaseStorage */,
+				C5142FCF29882BAB0001F4A1 /* FirebaseStorageCombine-Community */,
+			);
+			productName = Chatly;
+			productReference = C5BE34AF29869454004A8D5A /* Chatly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5BE34C729869456004A8D5A /* ChatlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BE34DF29869456004A8D5A /* Build configuration list for PBXNativeTarget "ChatlyTests" */;
+			buildPhases = (
+				E233603FFAC4A5F8E797BA55 /* [CP] Check Pods Manifest.lock */,
+				C5BE34C429869456004A8D5A /* Sources */,
+				C5BE34C529869456004A8D5A /* Frameworks */,
+				C5BE34C629869456004A8D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5BE34CA29869456004A8D5A /* PBXTargetDependency */,
+			);
+			name = ChatlyTests;
+			productName = ChatlyTests;
+			productReference = C5BE34C829869456004A8D5A /* ChatlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5BE34D129869456004A8D5A /* ChatlyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5BE34E229869456004A8D5A /* Build configuration list for PBXNativeTarget "ChatlyUITests" */;
+			buildPhases = (
+				F9ECE206CA4B6F5F70A5D513 /* [CP] Check Pods Manifest.lock */,
+				C5BE34CE29869456004A8D5A /* Sources */,
+				C5BE34CF29869456004A8D5A /* Frameworks */,
+				C5BE34D029869456004A8D5A /* Resources */,
+				E404C134FD6B98B348CD6D25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5BE34D429869456004A8D5A /* PBXTargetDependency */,
+			);
+			name = ChatlyUITests;
+			productName = ChatlyUITests;
+			productReference = C5BE34D229869456004A8D5A /* ChatlyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5BE34A729869454004A8D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C5BE34AE29869454004A8D5A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C5BE34C729869456004A8D5A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C5BE34AE29869454004A8D5A;
+					};
+					C5BE34D129869456004A8D5A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C5BE34AE29869454004A8D5A;
+					};
+				};
+			};
+			buildConfigurationList = C5BE34AA29869454004A8D5A /* Build configuration list for PBXProject "Chatly" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5BE34A629869454004A8D5A;
+			packageReferences = (
+				C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C5BE34B029869454004A8D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5BE34AE29869454004A8D5A /* Chatly */,
+				C5BE34C729869456004A8D5A /* ChatlyTests */,
+				C5BE34D129869456004A8D5A /* ChatlyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5BE34AD29869454004A8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C53B7D4C298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.xib in Resources */,
+				C5BE34C229869456004A8D5A /* LaunchScreen.storyboard in Resources */,
+				C5A5E4512998E1DB00064F05 /* ChatListTableViewCell.xib in Resources */,
+				C5BE34BF29869456004A8D5A /* Assets.xcassets in Resources */,
+				C5BE34BA29869454004A8D5A /* Main.storyboard in Resources */,
+				C575D0AE299139D400B3E6B4 /* FriendsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BE34C629869456004A8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BE34D029869456004A8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B02D31F7F28BEE29A8C43F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chatly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD0A78DE1969F69F29CB8384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatly/Pods-Chatly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatly/Pods-Chatly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chatly/Pods-Chatly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E233603FFAC4A5F8E797BA55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatlyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E404C134FD6B98B348CD6D25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatly-ChatlyUITests/Pods-Chatly-ChatlyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatly-ChatlyUITests/Pods-Chatly-ChatlyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chatly-ChatlyUITests/Pods-Chatly-ChatlyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9ECE206CA4B6F5F70A5D513 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chatly-ChatlyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5BE34AB29869454004A8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5142FD92988364C0001F4A1 /* LoginViewController.swift in Sources */,
+				C5509EE42992DA7600280670 /* DateManager.swift in Sources */,
+				C5B43610298BD20A008B3417 /* BulletinBoardTextField.swift in Sources */,
+				C5B6D030298D2B8A00813ECF /* GenerateRandomUserUniqueCode.swift in Sources */,
+				C5142FE129883D6A0001F4A1 /* RegisterViewController.swift in Sources */,
+				C5B6D02A298D09FA00813ECF /* SettingsViewController.swift in Sources */,
+				C5269C6A299E0245009424B3 /* AddChatViewController.swift in Sources */,
+				C5704AAA298AAEC800E38B86 /* URLNetwork.swift in Sources */,
+				C5EFFDBA29A5DC66003D070A /* SegueStrings.swift in Sources */,
+				C5B6D032298D2D4900813ECF /* FriendsViewController.swift in Sources */,
+				C53B7D4B298FAA4B009E45E7 /* FriendsRequestCellTableViewCell.swift in Sources */,
+				C5BE34BD29869454004A8D5A /* Chatly.xcdatamodeld in Sources */,
+				C5B6D027298BF64F00813ECF /* FirebaseNetworkUserManager.swift in Sources */,
+				C5142FDF29883BD90001F4A1 /* StringConstants.swift in Sources */,
+				C5BE34B729869454004A8D5A /* ViewController.swift in Sources */,
+				C5BE34B329869454004A8D5A /* AppDelegate.swift in Sources */,
+				C5425B7E298A875600BBD10C /* ProfileViewController.swift in Sources */,
+				C5871B162994FAF300582352 /* UIImageExtension.swift in Sources */,
+				C5142FDC298837AC0001F4A1 /* CornerRadiusConstants.swift in Sources */,
+				C5509EDD2992D8BE00280670 /* DateExtension.swift in Sources */,
+				C53B7D43298EEE7B009E45E7 /* FriendsRequestsViewController.swift in Sources */,
+				C53B7D46298EF539009E45E7 /* Friend.swift in Sources */,
+				C575D0B029917E7B00B3E6B4 /* FriendDetailViewController.swift in Sources */,
+				C5269C68299DFD9A009424B3 /* FirebaseStandartAlertError.swift in Sources */,
+				C575D0AD299139D400B3E6B4 /* FriendsTableViewCell.swift in Sources */,
+				C5059E59298960A200317A29 /* UINavigationItemTitleColorFunction.swift in Sources */,
+				C5EFFDB829A5DB6F003D070A /* CoreDataStrings.swift in Sources */,
+				C5871B12299466EE00582352 /* ChatsViewController.swift in Sources */,
+				C5142FB82988237C0001F4A1 /* ChatlyColorConstants.swift in Sources */,
+				C5EFFDB629A5D93A003D070A /* CellStrings.swift in Sources */,
+				C5BE34B529869454004A8D5A /* SceneDelegate.swift in Sources */,
+				C58D8B09299672E6002C82EF /* Message.swift in Sources */,
+				C5EFFDB229A55335003D070A /* FirebaseStringConstants.swift in Sources */,
+				C5EFFDBC29A5F993003D070A /* UserDefaultsStrings.swift in Sources */,
+				C5EFFDB429A5678C003D070A /* ErrorStrings.swift in Sources */,
+				C5509EDB29926B7800280670 /* UIImageViewExtension.swift in Sources */,
+				C5B6D02D298D180A00813ECF /* UserDefaultsManager.swift in Sources */,
+				C55D986C298A667B00A61CE0 /* HomeTabBarViewController.swift in Sources */,
+				C5EC262D299645CA00F5E919 /* MessageViewController.swift in Sources */,
+				C5EA8748299E44C30096D683 /* CoreDataManager.swift in Sources */,
+				C58D8B0D2997B625002C82EF /* StringExtension.swift in Sources */,
+				C5142FBB298825330001F4A1 /* UIColorExtension.swift in Sources */,
+				C5A5E4502998E1DB00064F05 /* ChatListTableViewCell.swift in Sources */,
+				C5059E512989367600317A29 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BE34C429869456004A8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BE34CD29869456004A8D5A /* ChatlyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BE34CE29869456004A8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BE34D729869456004A8D5A /* ChatlyUITests.swift in Sources */,
+				C5BE34D929869456004A8D5A /* ChatlyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5BE34CA29869456004A8D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5BE34AE29869454004A8D5A /* Chatly */;
+			targetProxy = C5BE34C929869456004A8D5A /* PBXContainerItemProxy */;
+		};
+		C5BE34D429869456004A8D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5BE34AE29869454004A8D5A /* Chatly */;
+			targetProxy = C5BE34D329869456004A8D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5BE34B829869454004A8D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BE34B929869454004A8D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5BE34C029869456004A8D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5BE34C129869456004A8D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5BE34DA29869456004A8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5BE34DB29869456004A8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5BE34DD29869456004A8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D34F43DA12CBC042E1A3A52 /* Pods-Chatly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chatly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Chatly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5BE34DE29869456004A8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33F0661289E64F5118FC993 /* Pods-Chatly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chatly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Chatly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5BE34E029869456004A8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9E17D7B86B6CD5C626F613 /* Pods-ChatlyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChatlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chatly";
+			};
+			name = Debug;
+		};
+		C5BE34E129869456004A8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB499948EEBF0D3982063CB6 /* Pods-ChatlyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChatlyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chatly";
+			};
+			name = Release;
+		};
+		C5BE34E329869456004A8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358A97D14DE4F8A689A0631B /* Pods-Chatly-ChatlyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChatlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatly;
+			};
+			name = Debug;
+		};
+		C5BE34E429869456004A8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1BE30900C88597CAB9D07F /* Pods-Chatly-ChatlyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ChatlyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5BE34AA29869454004A8D5A /* Build configuration list for PBXProject "Chatly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BE34DA29869456004A8D5A /* Debug */,
+				C5BE34DB29869456004A8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BE34DC29869456004A8D5A /* Build configuration list for PBXNativeTarget "Chatly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BE34DD29869456004A8D5A /* Debug */,
+				C5BE34DE29869456004A8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BE34DF29869456004A8D5A /* Build configuration list for PBXNativeTarget "ChatlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BE34E029869456004A8D5A /* Debug */,
+				C5BE34E129869456004A8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5BE34E229869456004A8D5A /* Build configuration list for PBXNativeTarget "ChatlyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5BE34E329869456004A8D5A /* Debug */,
+				C5BE34E429869456004A8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C5142FBD29882BAB0001F4A1 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		C5142FBF29882BAB0001F4A1 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		C5142FC129882BAB0001F4A1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		C5142FC329882BAB0001F4A1 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		C5142FC529882BAB0001F4A1 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C5142FC729882BAB0001F4A1 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		C5142FC929882BAB0001F4A1 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		C5142FCB29882BAB0001F4A1 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		C5142FCD29882BAB0001F4A1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C5142FCF29882BAB0001F4A1 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C5142FBC29882BAB0001F4A1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C5BE34BB29869454004A8D5A /* Chatly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5BE34BC29869454004A8D5A /* Chatly.xcdatamodel */,
+			);
+			currentVersion = C5BE34BC29869454004A8D5A /* Chatly.xcdatamodel */;
+			path = Chatly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5BE34A729869454004A8D5A /* Project object */;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="22D68" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ChatsCoreData" representedClassName="ChatsCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="lastMessage" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="profilePhoto" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FriendCoreData" representedClassName="FriendCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="chatRoomCode" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="lastSeen" optional="YES" attributeType="String"/>
+        <attribute name="profilePhoto" optional="YES" attributeType="String"/>
+        <attribute name="ref" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userStatus" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserCoreData" representedClassName="UserCoreData" syncable="YES" codeGenerationType="class">
+        <attribute name="isUserOnline" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="profilePhoto" optional="YES" attributeType="String"/>
+        <attribute name="userEmail" optional="YES" attributeType="String"/>
+        <attribute name="userId" optional="YES" attributeType="String"/>
+        <attribute name="userLastSeen" optional="YES" attributeType="String"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userStatus" optional="YES" attributeType="String"/>
+        <attribute name="userUniqueCode" optional="YES" attributeType="String"/>
+    </entity>
+</model>

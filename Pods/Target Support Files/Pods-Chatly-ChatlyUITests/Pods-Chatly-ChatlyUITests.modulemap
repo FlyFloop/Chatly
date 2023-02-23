@@ -1,0 +1,6 @@
+framework module Pods_Chatly_ChatlyUITests {
+  umbrella header "Pods-Chatly-ChatlyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
